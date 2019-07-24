@@ -42,7 +42,7 @@ public class lambda1 {
         Thread t3 = new Thread(() -> System.out.println("An implicit Runnable!"));
 
         //expression with one parameter
-            Consumer<String> lengthPrinter =
+        Consumer<String> lengthPrinter =
                     s -> System.out.println(s.length());
         });
     }
